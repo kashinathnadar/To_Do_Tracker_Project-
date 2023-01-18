@@ -1,0 +1,30 @@
+<div class="DetailCard">
+      <p>Task Name : {{data.taskHeading | uppercase}} </p>
+
+      Task Name : {{data.taskHeading}} <span class="text-success"*ngIf="data.status">Completed</span>
+
+      <p class="card-text col-6"> <mat-label> Task Category : {{data.taskCategory |uppercase}} </mat-label></p>
+  
+      <p class="card-text col-6"><mat-label>Task Start Date : {{data.taskStartDate |date}}</mat-label></p>
+
+  
+      <p class="card-text col-6"><mat-label>Task End Date : {{data.taskEndDate |date}}</mat-label></p>
+
+  
+      <p class="card-text col-6"><mat-label>Task Description : {{data.taskDescription |uppercase}}</mat-label></p>
+ 
+  
+      <p class="card-text col-6"><mat-label>Task Priority : {{data.priority | uppercase}}</mat-label></p>
+      <!-- <br>
+      <mat-radio-group aria-label="Task Status">
+        <mat-radio-button value="true">Still Pending</mat-radio-button>
+        <br>
+        <mat-radio-button value="false" onclick="Complete()" >Completed</mat-radio-button>
+      </mat-radio-group>
+      <br><br>
+      <p class="card-text col-6" *ngIf="data.status"><mat-label>Pending Task</mat-label></p>
+     <p class="card-text col-6 text-warning" *ngIf="!data.status"><span>This Task have Some time To Complete</span></p> -->
+    <!-- <span class="text-success"*ngIf="!data.status">Completed</span> -->
+     
+  </div>
+
