@@ -1,0 +1,17 @@
+com\Group8\ToDo\Archieve\Service\model\DbSequence.class
+com\Group8\ToDo\Archieve\Service\model\Task.class
+com\Group8\ToDo\Archieve\Service\rabbitMq\rabbitCofig\UserRabbitMq.class
+com\Group8\ToDo\Archieve\Service\model\Priority.class
+com\Group8\ToDo\Archieve\Service\ToDoArchieveServiceApplication.class
+com\Group8\ToDo\Archieve\Service\exception\TaskNotFoundException.class
+com\Group8\ToDo\Archieve\Service\controller\ArchieveController.class
+com\Group8\ToDo\Archieve\Service\service\UserArchieveServiceImpl.class
+com\Group8\ToDo\Archieve\Service\rabbitMq\rabbitCofig\MessageConfiguration.class
+com\Group8\ToDo\Archieve\Service\service\UserArchieveService.class
+com\Group8\ToDo\Archieve\Service\exception\UserNotFoundException.class
+com\Group8\ToDo\Archieve\Service\model\User.class
+com\Group8\ToDo\Archieve\Service\service\SequenceGenerator.class
+com\Group8\ToDo\Archieve\Service\rabbitMq\TaskDetails.class
+com\Group8\ToDo\Archieve\Service\exception\TaskAlreadyExistException.class
+com\Group8\ToDo\Archieve\Service\exception\UserAlreadyRegistered.class
+com\Group8\ToDo\Archieve\Service\repository\UserArchieveRepository.class
